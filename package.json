@@ -1,0 +1,19 @@
+{
+  "name": "fipe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fetch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fetch": "node fetch.js",
+    "convert": "node convert.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.1.4",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "uuid": "^3.3.3"
+  }
+}
